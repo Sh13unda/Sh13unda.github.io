@@ -16,7 +16,6 @@ body {
 }
 .row {
     width: 18vw;
-    height: 30vw;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -29,7 +28,7 @@ img {
 }
 h1 {
     color: hsl(218, 44%, 22%);
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 p {
@@ -37,17 +36,13 @@ p {
     font-weight: 10px;
     text-align: center;
 }
-.attribution {
+.footer {
     margin: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
     .row {
         width: 60vw;
         height: 75vh;
     }
-}
-@media  only screen and (max-width: 1440px) {
-    
-
 }
